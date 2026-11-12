@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0d1321" />
+  <meta name="description" content="Discover the best of Perlis, Malaysia. Explore attractions, seasonal experiences and create your own personalised travel itinerary." />
+  <title>Visit Perlis — Small State, Endless Discoveries</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" /></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="m5 14 7-7 7 7" /></symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="m5 10 7 7 7-7" /></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.8 8.2-2.5 5.1-5.1 2.5 2.5-5.1z"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 4C9 4 5 9 5 16a4 4 0 0 0 4 4c7 0 12-4 11-16ZM4 21c4-6 8-9 13-12"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" /></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19" /></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="m12 2 2.3 7.7L22 12l-7.7 2.3L12 22l-2.3-7.7L2 12l7.7-2.3z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M4 17v4h16v-4" /></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="19" r="2"/><path d="m8 11 8-5M8 13l8 5" /></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16" /></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16m-10-3h4m-8 3 1 14h10l1-14M10 11v6m4-6v6" /></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5L20 7" /></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3zM9 3v15m6-12v15"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="7" r="3"/><path d="M3 20v-2a6 6 0 0 1 12 0v2H3ZM17 4a3 3 0 0 1 0 6m1 5a5 5 0 0 1 3 5"/></symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <div class="nav-shell container">
+      <a class="brand" href="#top" aria-label="Visit Perlis home">
+        <span class="brand-mark" aria-hidden="true"><span class="brand-sun"></span><span class="brand-hill one"></span><span class="brand-hill two"></span></span>
+        <span class="brand-type"><strong>VISIT <span>PERLIS</span></strong><small>THE NORTHERN GEM</small></span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#discover" data-i18n="navExplore">Explore</a>
+        <a href="#planner" data-i18n="navPlanner">Trip Planner</a>
+        <a href="#seasons" data-i18n="navSeasons">Seasons</a>
+        <a href="#essentials" data-i18n="navTips">Travel Tips</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="language-switch" id="lang-switch" type="button" aria-label="Switch to Bahasa Melayu">BM <span>/</span> EN</button>
+        <a class="nav-cta" href="#planner"><span data-i18n="navCta">Plan my trip</span><svg class="icon"><use href="#i-arrow"></use></svg></a>
+        <button class="mobile-toggle" id="mobile-toggle" type="button" aria-label="Open navigation menu" aria-controls="main-nav" aria-expanded="false"><svg class="icon"><use href="#i-menu"></use></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-label="Visit Perlis welcome">
+      <div class="hero-photo" role="img" aria-label="Rice fields in Kangar, Perlis"><img id="hero-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Padi_Field_in_Kangar%2C_Perlis_%285834859142%29.jpg?width=1800" alt="Lush paddy fields in Kangar, Perlis" fetchpriority="high"/></div>
+      <div class="hero-vignette"></div>
+      <div class="container hero-content">
+        <div class="hero-overline"><span class="small-line"></span><span data-i18n="heroEyebrow">WELCOME TO PERLIS, MALAYSIA</span></div>
+        <h1><span data-i18n="heroLine1">Small state.</span><br><em data-i18n="heroLine2">Endless discoveries.</em></h1>
+        <p class="hero-copy" data-i18n="heroText">Misty hills, golden paddy fields, hidden caves and unforgettable local flavours. Discover the beauty of taking it slow in Malaysia's northern gem.</p>
+        <div class="hero-buttons">
+          <a href="#discover" class="btn btn-light"><span data-i18n="heroExplore">Explore Perlis</span><svg class="icon"><use href="#i-arrow"></use></svg></a>
+          <a href="#planner" class="btn btn-outline-light"><svg class="icon"><use href="#i-sparkle"></use></svg><span data-i18n="heroPlan">Build my itinerary</span></a>
+        </div>
+        <div class="hero-scroll"><span class="scroll-line"></span><span data-i18n="heroScroll">SCROLL TO DISCOVER</span></div>
+      </div>
+      <div class="hero-location"><svg class="icon"><use href="#i-pin"></use></svg><span>KANGAR, PERLIS · MALAYSIA</span></div>
+    </section>
+
+    <section class="introduction container" aria-label="Why visit Perlis">
+      <div class="intro-stamp"><span>06° 26′ N</span><strong>PERLIS</strong><span>100° 12′ E</span></div>
+      <div class="intro-copy"><span class="eyebrow" data-i18n="introEyebrow">THE JOY OF SLOW TRAVEL</span><h2 data-i18n="introTitle">A different kind of beautiful.</h2><p data-i18n="introText">Skip the rush. Find your own pace among dramatic limestone hills, welcoming towns and timeless countryside scenes.</p></div>
+      <div class="intro-aside"><span class="intro-num">01 <i>/</i> 03</span><p data-i18n="introAside">Curated places. Thoughtful journeys. Real local charm.</p></div>
+    </section>
+
+    <section id="discover" class="section section-cream destinations-section">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div><span class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="discoverEyebrow">THE PLACES YOU'LL LOVE</span></span><h2><span data-i18n="discoverLine1">Find your next</span><br><em data-i18n="discoverLine2">favourite place.</em></h2></div>
+          <div class="heading-side"><p data-i18n="discoverIntro">From peaceful lakes to bustling border markets, there's always something worth discovering.</p><span class="results-count" id="results-count">16 destinations</span></div>
+        </div>
+        <div class="discovery-tools">
+          <div class="filter-list" role="group" aria-label="Filter destinations" id="filter-list">
+            <button type="button" class="filter-chip active" data-filter="all" aria-pressed="true" data-i18n="filterAll">All places</button>
+            <button type="button" class="filter-chip" data-filter="nature" aria-pressed="false" data-i18n="filterNature">Nature</button>
+            <button type="button" class="filter-chip" data-filter="heritage" aria-pressed="false" data-i18n="filterHeritage">Heritage</button>
+            <button type="button" class="filter-chip" data-filter="food" aria-pressed="false" data-i18n="filterFood">Food & Culture</button>
+            <button type="button" class="filter-chip" data-filter="shopping" aria-pressed="false" data-i18n="filterShopping">Shopping</button>
+            <button type="button" class="filter-chip" data-filter="adventure" aria-pressed="false" data-i18n="filterAdventure">Adventure</button>
+          </div>
+          <label class="search-field"><svg class="icon"><use href="#i-compass"></use></svg><input id="destination-search" type="search" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="Search a destination..." aria-label="Search destinations" /></label>
+        </div>
+        <div class="destination-grid" id="destination-grid" aria-live="polite"></div>
+        <div class="load-row"><button id="show-more" type="button" class="btn btn-line"><span data-i18n="showMore">Discover more places</span><svg class="icon"><use href="#i-arrow"></use></svg></button></div>
+      </div>
+    </section>
+
+    <section class="editorial-section">
+      <div class="editorial-picture"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Puncak_Wang_Kelian_-_2025.jpg?width=1200" loading="lazy" alt="View from Wang Kelian, Perlis"/><div class="editorial-float"><span>304m</span><small data-i18n="editorialBadge">WANG KELIAN VIEWPOINT</small></div></div>
+      <div class="editorial-text"><div class="editorial-inner"><span class="eyebrow eyebrow-light" data-i18n="editorialEyebrow">A LAND OF QUIET WONDERS</span><h2><span data-i18n="editorialLine1">Take the</span><br><em data-i18n="editorialLine2">scenic route.</em></h2><p data-i18n="editorialBody">The best memories aren't always on a checklist. They happen along winding roads, at a roadside stall, or at a viewpoint where you simply stop and stay awhile.</p><a href="#planner" class="text-link text-link-light"><span data-i18n="editorialLink">Make room for discovery</span><svg class="icon"><use href="#i-arrow"></use></svg></a></div><span class="editorial-ghost" aria-hidden="true">P</span></div>
+    </section>
+
+    <section id="planner" class="section planner-section">
+      <div class="container">
+        <div class="section-heading planner-heading"><span class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="plannerEyebrow">YOUR JOURNEY, YOUR WAY</span></span><h2><span data-i18n="plannerLine1">Every trip starts</span><br><em data-i18n="plannerLine2">with a little inspiration.</em></h2><p data-i18n="plannerIntro">Tell us how you like to travel. We'll create a suggested day-by-day plan that you can make your own.</p></div>
+        <div class="planner-workspace">
+          <form class="planner-form" id="planner-form">
+            <div class="form-top"><div class="form-emblem"><svg class="icon"><use href="#i-sparkle"></use></svg></div><div><h3 data-i18n="formTitle">Build your escape</h3><p data-i18n="formSubtitle">A few details to get started.</p></div></div>
+            <div class="form-group"><label for="trip-days" data-i18n="daysLabel">How long are you staying?</label><div class="days-options" id="days-options" role="group" aria-label="Trip length"><button type="button" data-days="1">1 <span data-i18n="dayShort">day</span></button><button type="button" data-days="2" class="selected">2 <span data-i18n="daysShort">days</span></button><button type="button" data-days="3">3 <span data-i18n="daysShort">days</span></button><button type="button" data-days="4">4 <span data-i18n="daysShort">days</span></button><button type="button" data-days="5">5 <span data-i18n="daysShort">days</span></button></div><input type="hidden" id="trip-days" name="days" value="2" /></div>
+            <div class="form-row"><div class="form-group"><label for="trip-date" data-i18n="dateLabel">When will you arrive?</label><input type="date" id="trip-date" name="arrival" required /></div><div class="form-group"><label for="trip-party" data-i18n="partyLabel">Who's coming along?</label><select id="trip-party" name="party"><option value="couple" data-i18n="partyCouple">Couple</option><option value="family" data-i18n="partyFamily">Family</option><option value="friends" data-i18n="partyFriends">Friends</option><option value="solo" data-i18n="partySolo">Solo traveller</option></select></div></div>
+            <div class="form-group"><label data-i18n="interestsLabel">What would you love to do? <span class="optional">(choose more than one)</span></label><div id="interest-options" class="interests-group" role="group" aria-label="Travel interests"><button type="button" data-interest="nature" class="selected" aria-pressed="true">🌿 <span data-i18n="filterNature">Nature</span></button><button type="button" data-interest="food" class="selected" aria-pressed="true">🥭 <span data-i18n="interestFood">Local food</span></button><button type="button" data-interest="heritage" aria-pressed="false">🏛️ <span data-i18n="interestHeritage">Culture</span></button><button type="button" data-interest="shopping" aria-pressed="false">🛍️ <span data-i18n="filterShopping">Shopping</span></button><button type="button" data-interest="adventure" aria-pressed="false">⛰️ <span data-i18n="filterAdventure">Adventure</span></button></div></div>
+            <div class="form-group"><label for="trip-pace" data-i18n="paceLabel">Your travel pace</label><select id="trip-pace" name="pace"><option value="relaxed" data-i18n="paceRelaxed">Relaxed · 2 stops/day</option><option value="balanced" selected data-i18n="paceBalanced">Balanced · 3 stops/day</option><option value="packed" data-i18n="pacePacked">Full of adventure · up to 4 stops/day</option></select></div>
+            <button type="submit" class="btn btn-primary btn-generate"><svg class="icon"><use href="#i-sparkle"></use></svg><span data-i18n="generate">Create my itinerary</span><svg class="icon"><use href="#i-arrow"></use></svg></button>
+            <p class="form-note"><svg class="icon"><use href="#i-check"></use></svg><span data-i18n="privacyNote">Free to use. No account needed. Your plan stays in this browser.</span></p>
+          </form>
+          <div class="planner-output" id="planner-output" aria-live="polite"><div class="output-empty"><div class="empty-illustration"><span class="empty-sun"></span><span class="empty-mountain rear"></span><span class="empty-mountain front"></span><span class="empty-path"></span></div><span class="small-label" data-i18n="outputEyebrow">YOUR ADVENTURE AWAITS</span><h3 data-i18n="outputTitle">Let's make some memories.</h3><p data-i18n="outputText">Choose your preferences and your personalised Perlis itinerary will appear here.</p><div class="empty-steps"><span>01 <i></i> <b data-i18n="stepDiscover">Discover</b></span><span>02 <i></i> <b data-i18n="stepPersonalise">Personalise</b></span><span>03 <i></i> <b data-i18n="stepExplore">Explore</b></span></div></div></div>
+        </div>
+        <p class="planner-disclaimer" data-i18n="plannerDisclaimer">Trip suggestions are illustrative, not live booking information. Check opening times, road conditions, weather, transport and seasonal availability before travelling.</p>
+      </div>
+    </section>
+
+    <section id="seasons" class="section seasons-section">
+      <div class="container">
+        <div class="section-heading heading-row"><div><span class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span><span data-i18n="seasonEyebrow">PERLIS THROUGH THE YEAR</span></span><h2><span data-i18n="seasonLine1">Every season has</span><br><em data-i18n="seasonLine2">its own story.</em></h2></div><div class="heading-side"><p data-i18n="seasonIntro">Discover local flavours, changing landscapes and the little moments that make each visit different.</p></div></div>
+        <div class="season-grid" id="season-grid"></div>
+        <div class="season-checker"><div class="season-checker-title"><svg class="icon"><use href="#i-calendar"></use></svg><div><strong data-i18n="seasonCheckerTitle">When are you coming?</strong><p data-i18n="seasonCheckerDesc">See what experiences might suit your visit.</p></div></div><select id="season-month" aria-label="Choose your visit month"></select><p id="season-message" aria-live="polite"></p></div>
+      </div>
+    </section>
+
+    <section id="essentials" class="section essentials-section section-cream">
+      <div class="container"><div class="section-heading heading-row"><div><span class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="tipsEyebrow">GOOD TO KNOW</span></span><h2><span data-i18n="tipsLine1">A smoother trip</span><br><em data-i18n="tipsLine2">starts here.</em></h2></div><div class="heading-side"><p data-i18n="tipsIntro">Just a few things to keep in mind before you head north.</p></div></div>
+        <div class="tips-grid"><article class="tip-card"><span class="tip-number">01</span><div class="tip-icon"><svg class="icon"><use href="#i-map"></use></svg></div><h3 data-i18n="tip1Title">Getting around</h3><p data-i18n="tip1Text">Driving or arranging a car is often the most practical way to visit attractions spread across the state. Check transport options ahead of time.</p></article><article class="tip-card"><span class="tip-number">02</span><div class="tip-icon"><svg class="icon"><use href="#i-sun"></use></svg></div><h3 data-i18n="tip2Title">Plan for the weather</h3><p data-i18n="tip2Text">Outdoor views depend on weather and visibility. Bring water, sun protection and a flexible backup plan for rainy days.</p></article><article class="tip-card"><span class="tip-number">03</span><div class="tip-icon"><svg class="icon"><use href="#i-people"></use></svg></div><h3 data-i18n="tip3Title">Respect local culture</h3><p data-i18n="tip3Text">Dress considerately when visiting religious sites, support small local businesses and leave natural spaces as you found them.</p></article></div>
+      </div>
+    </section>
+
+    <section class="closing-section"><div class="closing-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Al-Hussain_Floating_Mosque_at_sunset.jpg?width=1800" loading="lazy" alt="Al-Hussain Floating Mosque at sunset in Kuala Perlis"/></div><div class="closing-shade"></div><div class="container closing-content"><span class="eyebrow eyebrow-light" data-i18n="closingEyebrow">YOUR NEXT STORY BEGINS HERE</span><h2><span data-i18n="closingLine1">Come for the views.</span><br><em data-i18n="closingLine2">Stay for the feeling.</em></h2><p data-i18n="closingText">The charm of Perlis is waiting to be discovered, one beautiful moment at a time.</p><a href="#planner" class="btn btn-light"><span data-i18n="closingCta">Plan your visit</span><svg class="icon"><use href="#i-arrow"></use></svg></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="#top" class="brand brand-footer"><span class="brand-mark" aria-hidden="true"><span class="brand-sun"></span><span class="brand-hill one"></span><span class="brand-hill two"></span></span><span class="brand-type"><strong>VISIT <span>PERLIS</span></strong><small>THE NORTHERN GEM</small></span></a><p data-i18n="footerTagline">A little place with so much to discover. Explore mindfully, travel beautifully.</p></div><div class="footer-links"><strong data-i18n="footerExplore">Explore</strong><a href="#discover" data-i18n="navExplore">Explore</a><a href="#planner" data-i18n="navPlanner">Trip Planner</a><a href="#seasons" data-i18n="navSeasons">Seasons</a><a href="#essentials" data-i18n="navTips">Travel Tips</a></div><div class="footer-links"><strong data-i18n="footerResources">Travel resources</strong><a href="https://tourism.perlis.gov.my/" target="_blank" rel="noopener noreferrer">Tourism Perlis ↗</a><a href="https://ebrochures.malaysia.travel/en/malaysia-travel-guide/perlis/" target="_blank" rel="noopener noreferrer">Tourism Malaysia ↗</a><a href="https://www.met.gov.my/" target="_blank" rel="noopener noreferrer">MET Malaysia ↗</a></div></div><div class="footer-bottom"><p>© <span id="year"></span> Visit Perlis. <span data-i18n="footerNote">Independent tourism website concept. Not an official government portal.</span></p><details class="credits"><summary data-i18n="photoCredits">Image credits & licensing</summary><div id="credits-list"></div></details><a class="back-top" href="#top"><span data-i18n="backTop">Back to top</span> ↑</a></div></div></footer>
+
+  <dialog id="place-dialog" class="place-dialog" aria-labelledby="modal-title"><div class="modal-body"><button class="modal-close" id="modal-close" type="button" aria-label="Close dialog"><svg class="icon"><use href="#i-x"></use></svg></button><div class="modal-image" id="modal-image"></div><div class="modal-copy"><span id="modal-category" class="eyebrow"></span><h2 id="modal-title"></h2><p id="modal-description"></p><div class="modal-meta" id="modal-meta"></div><p class="modal-notice" data-i18n="modalNotice">Opening hours, entry conditions and activities may change. Please verify before visiting.</p><div class="modal-actions"><button class="btn btn-primary" id="modal-add" type="button"><svg class="icon"><use href="#i-plus"></use></svg><span data-i18n="addToTrip">Add to my trip</span></button><a id="modal-maps" class="btn btn-secondary" href="#" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-pin"></use></svg><span data-i18n="openMaps">Open in Maps</span></a></div></div></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
